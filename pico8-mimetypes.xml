@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+  <mime-type type="application/x-pico8-cartridge-source">
+    <comment xml:lang="en">PICO-8 cartridge</comment>
+    <sub-class-of type="text/plain"/>
+    <magic>
+      <match type="string" offset="0" value="pico-8 cartridge // http://www.pico-8.com\x0a"/>
+      <match type="string" offset="0" value="pico-8 cartridge // http://www.pico-8.com\x0d"/>
+    </magic>
+    <glob pattern="*.p8"/>
+  </mime-type>
+  <mime-type type="application/x-pico8-png-cartridge">
+    <comment xml:lang="en">PICO-8 PNG cartridge</comment>
+    <sub-class-of type="image/png"/>
+    <glob pattern="*.p8.png" weight="100"/>
+  </mime-type>
+  <mime-type type="application/x-pico8-rom">
+    <comment>PICO-8 ROM</comment>
+    <sub-class-of type="application/x-executable"/>
+    <magic>
+      <match type="string" offset="0" value=":c:\x00"/>
+      <match type="string" offset="0" value="\x00pxa"/>
+    </magic>
+    <glob pattern="*.p8.rom"/>
+  </mime-type>
+</mime-info>

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=PICO-8
+Comment=Fantasy console for making, sharing and playing tiny games
+Icon=pico8
+Exec=pico8 %f
+Terminal=false
+MimeType=application/x-pico8-cartridge-source;application/x-pico8-png-cartridge;application/x-pico8-rom
+Categories=Game
+SingleMainWindow=true
