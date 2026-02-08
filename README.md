@@ -1,7 +1,8 @@
 # PICO-8 AppImage Generator
 
-> [!important] This repo does not contain any PICO-8 binaries. You need to
-> provide these yourself by downloading them from
+> [!important]\
+> This repo does not contain any PICO-8 binaries. You need to provide these
+> yourself by downloading them from
 > [lexaloffle.com](https://www.lexaloffle.com/games.php).
 
 This project generates an [AppImage](https://appimage.org/) for running the
