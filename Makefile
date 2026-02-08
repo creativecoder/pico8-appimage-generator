@@ -1,4 +1,4 @@
-SRC := "./pico-8_0.2.7_amd64"
+SRC ?= "./pico-8_0.2.7_amd64"
 ARCH ?= "x86_64"
 
 APPDIR := "pico8.AppDir"
